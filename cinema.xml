@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema xmlns="https://www.example.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.example.com cinema.xsd">
+
+  <open>09:00:00</open>
+  <close>23:00:00</close>
+
+  <movies>
+    <movie>
+      <name>Avengers: Endgame</name>
+      <duration>PT3H1M</duration>
+    </movie>
+  </movies>
+
+</cinema>

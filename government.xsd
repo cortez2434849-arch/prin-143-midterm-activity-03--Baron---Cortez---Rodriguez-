@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="https://www.example.com"
+  xmlns="https://www.example.com"
+  elementFormDefault="qualified"
+>
+  <xs:element name="politician">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="position">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="President"/>
+              <xs:enumeration value="Vice President"/>
+              <xs:enumeration value="Senator"/>
+              <xs:enumeration value="Mayor"/>
+              <xs:enumeration value="Councilor"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="age" type="xs:short" />
+        <xs:element name="partylist" type="xs:string" />
+        <xs:element name="achievements">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="achievement" type="xs:string" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

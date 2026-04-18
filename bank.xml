@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bank xmlns="https://www.example.com"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.example.com bank.xsd">
+
+  <transactions>
+    <transaction>
+      <user>Juan Dela Cruz</user>
+      <date>2026-04-16</date>
+      <type>deposit</type>
+      <amount>1000.00</amount>
+    </transaction>
+  </transactions>
+
+</bank>

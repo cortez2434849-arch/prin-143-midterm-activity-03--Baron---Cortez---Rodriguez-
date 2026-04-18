@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university xmlns="https://www.example.com/university"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://www.example.com/university university.xsd">
+
+  <departments>
+
+    <department>
+      <name>Computer Science</name>
+      <students>
+        <student>Ana Reyes</student>
+        <student>Mark Dizon</student>
+        <student>Jairuz Cortez</student>
+      </students>
+    </department>
+
+    <department>
+      <name>Information Technology</name>
+      <students>
+        <student>Cheska Lim</student>
+        <student>Eion Santos</student>
+        <student>Zoe Garcia</student>
+      </students>
+    </department>
+
+  </departments>
+
+</university>

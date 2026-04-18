@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<retail xmlns="https://www.example.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.example.com retail.xsd">
+
+  <store>
+    <name>Fresh Mart</name>
+    <address>123 Market Street, San Jose del Monte</address>
+
+    <sections>
+
+      <meat>
+        <products>
+          <product>beef</product>
+          <product>chicken</product>
+          <product>pork</product>
+        </products>
+      </meat>
+
+      <vegetable>
+        <products>
+          <product>eggplant</product>
+          <product>cabbage</product>
+          <product>celery</product>
+        </products>
+      </vegetable>
+
+    </sections>
+
+  </store>
+
+</retail>

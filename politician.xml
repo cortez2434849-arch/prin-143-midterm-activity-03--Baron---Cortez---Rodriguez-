@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<politician xmlns="https://www.example.com"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://www.example.com politician.xsd">
+
+  <name>Maria Clara Santos</name>
+  <age>52</age>
+
+  <achievements>
+    <achievement>Implemented national education reform</achievement>
+    <achievement>Led anti-corruption initiative</achievement>
+    <achievement>Improved healthcare accessibility programs</achievement>
+  </achievements>
+
+</politician>
